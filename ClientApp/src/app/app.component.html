@@ -1,0 +1,9 @@
+<form (ngSubmit)="triggerBroadcast(form.value)" #form="ngForm">
+  <input type="number" placeholder="Enter first value" ngModel="firstValue" name="firstValue" autocomplete="off">
+  <input type="number" placeholder="Enter second value" ngModel="secondValue" name="secondValue" autocomplete="off">
+  <button type="submit">Trigger broadcast</button>
+</form>
+
+<apx-chart
+  [series]="chartOptions.series"
+  [chart]="chartOptions.chart"></apx-chart>
