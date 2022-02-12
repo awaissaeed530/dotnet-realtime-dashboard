@@ -1,4 +1,4 @@
-﻿#Real-time Dashboard
+﻿# Real-time Dashboard
 
 This is a real-time dashboard demo using SignalR.
 
